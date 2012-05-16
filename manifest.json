@@ -1,46 +1,40 @@
 {
-    "version": "1.0",
+    "version": "1",
     "name": "Spotichrome",
+    "description": "A minimalist Chrome theme, inspired by Spotify, {All the music, all the time}, hacked by cggaurav",
     "theme": {
         "images": {
-            "theme_ntp_background": "images/background.png",
-            "theme_tab_background": "images/tab.png"
+            "theme_frame": "images/theme_frame.png",
+            "theme_toolbar": "images/theme_toolbar.png",
+            "theme_tab_background": "images/theme_tab_background.png",
+            "theme_ntp_background": "images/theme_ntp_background.png",
+            "theme_ntp_attribution": "images/theme_ntp_attribution.png"
         },
         "colors": {
-            "ntp_link": [
-                255,
-                255,
-                255
-            ],
-            "ntp_text": [
-                255,
-                255,
-                255
-            ],
-            "ntp_section_link": [
-                255,
-                255,
-                255
-            ],
-            "ntp_section_text": [
-                10,
-                17,
-                27
-            ],
-            "ntp_background": [
-                10,
-                17,
-                27
-            ],
             "frame": [
-                10,
-                17,
-                27
+                255,
+                255,
+                255
+            ],
+            "frame_inactive": [
+                122,
+                193,
+                66
+            ],
+            "frame_incognito": [
+                122,
+                193,
+                66
+            ],
+            "frame_incognito_inactive": [
+                53,
+                84,
+                42
             ],
             "toolbar": [
-                10,
-                17,
-                27
+                89,
+                89,
+                89
             ],
             "tab_text": [
                 255,
@@ -48,26 +42,67 @@
                 255
             ],
             "tab_background_text": [
-                10,
-                17,
-                27
+                4095,
+                255,
+                255
             ],
             "bookmark_text": [
                 255,
                 255,
                 255
-            ]
-        },
-        "tints": {
-            "buttons": [
-                0.33,
-                0.5,
-                0.47
+            ],
+            "ntp_background": [
+                255,
+                255,
+                255
+            ],
+            "ntp_text": [
+                0,
+                0,
+                0
+            ],
+            "button_background": [
+                0,
+                0,
+                0,
+                0.24
             ]
         },
         "properties": {
             "ntp_background_alignment": "bottom",
             "ntp_background_repeat": "no-repeat"
+        },
+        "tints": {
+            "buttons": [
+                0.26,
+                0.51,
+                0.51
+            ],
+            "frame": [
+                0,
+                0,
+                1
+            ],
+            "frame_inactive": [
+                -1,
+                -1,
+                0.75
+            ],
+            "frame_incognito": [
+                -1,
+                0.2,
+                0.35
+            ],
+            "frame_incognito_inactive": [
+                -1,
+                0.3,
+                0.6
+            ],
+            "background_tab": [
+                -1,
+                0.5,
+                0.75
+            ]
         }
     }
 }
