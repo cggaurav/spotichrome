@@ -1,8 +1,8 @@
 {
-    "version": "1",
+    "version": "1.2",
     "name": "Spotichrome",
     "description": "A minimalist Chrome theme, inspired by Spotify, {All the music, all the time}, hacked by cggaurav",
-    "reference" : "http://code.google.com/p/chromium/wiki/ThemeCreationGuide#theme_ntp_attribution",
+    "reference" : "http://code.google.com/p/chromium/wiki/ThemeCreationGuide",
     "theme": {
         "images": {
             "theme_frame": "images/theme_frame.png",
@@ -13,7 +13,8 @@
             "frame": [
                 0,
                 0,
-                0
+                0,
+                0.2
             ],
             "frame_inactive": [
                 60,
@@ -47,9 +48,9 @@
                 255
             ],
             "bookmark_text": [
-                122,
-                193,
-                13
+                255,
+                255,
+                255
             ],
             "ntp_background": [
                 0,
@@ -57,11 +58,6 @@
                 0
             ],
             "ntp_text": [
-                255,
-                255,
-                255
-            ],
-            "bookmark_text": [
                 255,
                 255,
                 255
@@ -75,7 +71,7 @@
         },
         "properties": {
             "ntp_background_alignment": "right",
-            "ntp_background_repeat": "repeat",
+            "ntp_background_repeat": "no-repeat",
             "ntp_logo_alternate": 1
         },
         "tints": {
@@ -86,7 +82,7 @@
             ],
             "frame": [
                 -1,
-                -1,
+                0.6,
                 0.6
             ],
             "frame_inactive": [
