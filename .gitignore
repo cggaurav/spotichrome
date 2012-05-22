@@ -1,2 +1,5 @@
 .DS_Store
 *.pak
+*.pem
+*.crz
+*.zip
